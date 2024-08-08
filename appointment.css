@@ -1,0 +1,427 @@
+.nav-items{
+    margin:auto;
+}
+.nav-items a{
+    font-size: 20px;
+    color:black;
+    font-weight: 800;
+    margin-left:30px;
+}
+.navbar-nav .nav-link {
+    color: #000; /* Default color */
+}
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.nav-control {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #1e3259;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}.navbar-nav .nav-link.active {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.nav-control:hover {
+    background: #f0f0f0;
+}
+.dotor_ctn_section{
+    margin-top:1%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:20px;
+}
+.section {
+    padding: 40px 0px;
+}
+
+.page-sub-ttl {
+    color: black; 
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #EAEAEA;
+    position: relative;
+    display: block; 
+    z-index: 1; 
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+#form-section {
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    width:100;
+    padding:40px;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}.form-group {
+    margin-bottom: 1rem;
+}input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}input[type="text"], textarea {
+    width: 100%;
+    padding:32px 8px;
+}
+.form-control {
+    border-radius: 0px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    height: calc(1.5em + 0.75rem + 2px);
+    -moz-appearance: none;
+    appearance: none;
+   
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}input[type="text"], textarea {
+    width: 100%;
+    padding:20px 10px !important;
+}
+.message-input{
+  height:60px;
+
+}
+.msg-card{
+    display:flex;
+    gap:50px;
+    align-items: center;
+    height:100%;
+}
+.msg-card i{
+    font-size: 35px !important;
+}
+#form-section {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.form-group label {
+    font-weight: bold;
+    font-size: 20px;
+    display:block !important;
+    text-align: left;
+    margin-bottom:14px !important;
+}
+#captcha2{
+font-weight: bold;
+color:black;
+}
+.btn.link-btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+.btn.link-btn:hover {
+    background-color: #0056b3;
+}
+.custom-capt {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+}
+
+
+#map {
+    height: 80%;
+    width: 100%; 
+}
+.chat-img{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+}
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 0; /* Vertical padding */
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px; /* Space between sections */
+    min-width: 220px; /* Ensure sections have a minimum width */
+}
+
+.footer-section h4 {
+    border-bottom: 2px solid #17a2b8; /* Accent line */
+    padding-bottom: 10px;
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.footer-section p,
+.footer-section ul {
+    line-height: 1.6; /* Improve readability */
+}
+
+.footer-section ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; 
+}
+
+.footer-section a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.footer-section a:hover {
+    color: #17a2b8; /* Change color on hover */
+}
+
+.social-icons {
+    display: flex; /* Flexbox for social icons */
+}
+
+.social-icon {
+    margin-right: 15px; /* Space between icons */
+    font-size: 24px; /* Icon size */
+    color: #ffffff; /* Icon color */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.social-icon:hover {
+    color: #17a2b8; /* Change color on hover */
+}
+
+.footer-bottom {
+    text-align: center; /* Centered text */
+    margin-top: 20px; /* Space above */
+    font-size: 14px; /* Smaller text size */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.col-md-4 {
+    padding: 15px;
+}
+
+/* Specialist Container */
+.specialist_in {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+/* Table Styles */
+table.single_doctor_specialist_in_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.single_doctor_specialist_in_table th, 
+table.single_doctor_specialist_in_table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size:20px;
+    color:black;
+}
+
+table.single_doctor_specialist_in_table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+table.single_doctor_specialist_in_table tr:hover {
+    background-color: #f9f9f9;
+}
+
+table.single_doctor_specialist_in_table td:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9c1ea0;
+}
+table.single_doctor_specialist_in_table tr{
+    border-top:1px solid black;
+}
+/* Additional Styling */
+.about_doctor p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+    margin-bottom: 1.5em;
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    display:flex;
+    gap:20px;
+    color:grey;
+}
+.arrow-icon{
+    margin-top:5px !important;
+}
+.btn{
+    margin-right:20px !important;
+}
+.about-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:80%;
+
+    margin-left:30% !important;
+    padding:10px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-img-container {
+    width:50%;
+    margin:auto;
+}
+.card-img-container img {
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #ddd;
+}
+#doctor-img-container{
+    margin-top:20px;
+}
+
+
+.doctor_pro h2 {
+    font-size: 32px;
+    font-family: poppins-blod;
+    margin: 15px 0px;
+    color: #03004B;
+    font-weight:500;
+    clear: both;
+}
+.doctor_pro h3 {
+    font-size: 28px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top:15px;
+    font-weight:600;
+    clear: both;
+}
+
+.card-rating {
+    margin: 40px 0;
+    font-size: 1.1em;
+}
+
+.star-filled {
+    color: orange;
+}
+
+.star-empty {
+    color: #ddd;
+}
+
+.rating-text {
+    margin-left: 5px;
+    color: #555;
+}
+
+.card-footer {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.card-address, .card-phone {
+    margin: 20px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.card-address p, .card-phone p{
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    font-size: 18px;
+    color:#545455;
+}
+.d-ab{
+    list-style: none;
+}
